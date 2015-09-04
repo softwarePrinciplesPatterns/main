@@ -21,6 +21,7 @@ public class KWIC {
 					MasterControl.execute();
 					break;
 				case 2:
+					KwicPipelineImpl.execute();
 					break;
 				case 3:
 					System.out.println("Successfully exited from program");
